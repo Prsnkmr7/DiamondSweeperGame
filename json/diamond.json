@@ -1,220 +1,284 @@
 {
-    "diamondDetails": [{
-		"name": "First Row",
-		"columns": [{
-            "isDiamond":false,
-            "isClicked":false
-		}, {
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":true,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		}]
-	},{
-		"name": "Second Row",
-		"columns": [{
-            "isDiamond":false,
-            "isClicked":false
-		}, {
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":true,
-            "isClicked":false
-		}]
-	},{
-		"name": "Third Row",
-		"columns": [{
-            "isDiamond":false,
-            "isClicked":false
-		}, {
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":true,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		}]
-	},{
-		"name": "Fourth Row",
-		"columns": [{
-            "isDiamond":false,
-            "isClicked":false
-		}, {
-            "isDiamond":true,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		}]
-	},{
-		"name": "Fifth Row",
-		"columns": [{
-            "isDiamond":false,
-            "isClicked":false
-		}, {
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":true,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		}]
-	},{
-		"name": "Sixth Row",
-		"columns": [{
-            "isDiamond":false,
-            "isClicked":false
-		}, {
-            "isDiamond":true,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		}]
-	},{
-		"name": "Seventh Row",
-		"columns": [{
-            "isDiamond":false,
-            "isClicked":false
-		}, {
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":true,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		}]
-	},{
-		"name": "Eight Row",
-		"columns": [{
-            "isDiamond":false,
-            "isClicked":false
-		}, {
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":false,
-            "isClicked":false
-		},{
-            "isDiamond":true,
-            "isClicked":false
-		}]
-	}]
-    
+      "diamondDetails": [{
+            "name": "First Row",
+            "columns": [{
+                  "index": "0",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "1",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "2",
+                  "isDiamond": true,
+                  "isClicked": false
+            }, {
+                  "index": "3",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "4",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "5",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "6",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "7",
+                  "isDiamond": false,
+                  "isClicked": false
+            }]
+      }, {
+            "name": "Second Row",
+            "columns": [{
+                  "index": "8",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "9",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "10",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "11",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "12",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "13",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "14",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "15",
+                  "isDiamond": true,
+                  "isClicked": false
+            }]
+      }, {
+            "name": "Third Row",
+            "columns": [{
+                  "index": "16",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "17",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "18",
+                  "isDiamond": true,
+                  "isClicked": false
+            }, {
+                  "index": "19",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "20",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "21",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "22",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "23",
+                  "isDiamond": false,
+                  "isClicked": false
+            }]
+      }, {
+            "name": "Fourth Row",
+            "columns": [{
+                  "index": "24",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "25",
+                  "isDiamond": true,
+                  "isClicked": false
+            }, {
+                  "index": "26",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "27",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "28",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "29",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "30",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "31",
+                  "isDiamond": false,
+                  "isClicked": false
+            }]
+      }, {
+            "name": "Fifth Row",
+            "columns": [{
+                  "index": "32",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "33",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "34",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "35",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "36",
+                  "isDiamond": true,
+                  "isClicked": false
+            }, {
+                  "index": "37",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "38",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "39",
+                  "isDiamond": false,
+                  "isClicked": false
+            }]
+      }, {
+            "name": "Sixth Row",
+            "columns": [{
+                  "index": "40",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "41",
+                  "isDiamond": true,
+                  "isClicked": false
+            }, {
+                  "index": "42",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "43",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "44",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "45",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "46",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "47",
+                  "isDiamond": false,
+                  "isClicked": false
+            }]
+      }, {
+            "name": "Seventh Row",
+            "columns": [{
+                  "index": "48",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "49",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "50",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "51",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "52",
+                  "isDiamond": true,
+                  "isClicked": false
+            }, {
+                  "index": "53",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "54",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "55",
+                  "isDiamond": false,
+                  "isClicked": false
+            }]
+      }, {
+            "name": "Eight Row",
+            "columns": [{
+                  "index": "56",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "57",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "58",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "59",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "60",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "61",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "62",
+                  "isDiamond": false,
+                  "isClicked": false
+            }, {
+                  "index": "64",
+                  "isDiamond": true,
+                  "isClicked": false
+            }]
+      }]
+
 }

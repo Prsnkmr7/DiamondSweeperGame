@@ -97,7 +97,7 @@ body{
 }
 
 
-h1,h2 {
+h1,h2,.hint-message {
     font-family: Avenir-roman;
     font-size: 32px;
     font-weight: 900;
@@ -112,6 +112,9 @@ h1,h2 {
 h2{
     font-size:24px;
 }
+.hint-message{
+    font-size: 16px;
+}
 
 .common-pad{
     padding:0 10px;
@@ -122,6 +125,13 @@ h2{
 .show-diamond{
     background-image: url(../assets/images/diamond.png);
 }
+.show-arrow,.show-arrow-left{
+    background-image: url(../assets/images/arrow.png);
+}
+.show-arrow-left{
+    transform: rotate(180deg);
+}
+
 .modal-body{
     width: 80%;
     max-width: 300px;

@@ -4,8 +4,9 @@
             <h1>Hi {{userName}}</h1>
             <div class="clearfix diamond-wrapper">
                 <div class="left">Number of Diamonds Found: {{numberOfDiamondFound}}</div>
-                <div class="right hint-button" ng-click="findHint()">Hint</div>
+                <div class="right hint-button pointer" ng-click="findHint()">Click for Hint</div>
             </div>
+            <div class="hint-message">{{message}}</div>
         </div>
         <div class="content-wrapper">
             <table class="account-table">
