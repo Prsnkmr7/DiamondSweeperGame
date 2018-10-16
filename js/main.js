@@ -8,12 +8,29 @@ quintBuild.config(function ($stateProvider, $urlRouterProvider) {
 
     $stateProvider
 
-        .state('Home', {
-            url: '/',
-            templateUrl: 'Templates/home.html'
-        })
+    .state('Info', {
+        url: '/',
+        templateUrl: 'Templates/info.html'
+    })
+    .state('home', {
+        url: '/home',
+        templateUrl: 'Templates/home.html'
+    })
         
 });
+
+quintBuild.controller('infoController', ['$scope', '$state', '$rootScope', function ($scope, $state, $rootScope ) {
+    $scope.user = {};
+    $scope.submitForm = function (val) {
+        if (val) {
+        $rootScope.listId = $scope.user.name;
+        sessionStorage.clear();
+        $state.go('home');
+        }
+    }
+
+}]);
+
 
 // Home Controller logic
 
@@ -44,6 +61,7 @@ quintBuild.controller('homeController', ['$scope', 'quintAPIservice', function (
 
     $scope.checkForDiamond = function (val) {
         val.isClicked = true;
+        storageToSession();
     };
 
     $scope.init();

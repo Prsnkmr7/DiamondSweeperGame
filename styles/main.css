@@ -26,6 +26,7 @@ body{
     width: 100%;
     margin: 30px auto;
     background:#fff;
+    box-sizing: border-box;
 }
 .clearfix::after {
     content: "";
@@ -40,15 +41,12 @@ body{
     background: #fbfbfb;
 }
 
-.common-pad{
-    padding-top:20px;
-}
-
 .account-table {
     font-size: 13px;
     max-width: 1040px;
     width: 100%;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 .grid-x {
     display: -webkit-box;
@@ -99,7 +97,7 @@ body{
 }
 
 
-h1 {
+h1,h2 {
     font-family: Avenir-roman;
     font-size: 32px;
     font-weight: 900;
@@ -109,6 +107,10 @@ h1 {
     color: #333333;
     display: inline-block;
     margin-right: 30px;
+    padding:20px 0;
+}
+h2{
+    font-size:24px;
 }
 
 .common-pad{
@@ -119,4 +121,74 @@ h1 {
 }
 .show-diamond{
     background-image: url(../assets/images/diamond.png);
+}
+.modal-body{
+    width: 80%;
+    max-width: 300px;
+}
+
+.form-group label {
+    color: rgba(51, 51, 51, 0.8);
+    font: 100 12px/11px Avenir-bold;
+    letter-spacing: 1.2px;
+    padding: 0px 0 10px 0;
+    text-transform: uppercase;
+    display: block;
+}
+
+.selection-wrapper {
+    width:100%;
+    background:#fff;
+    padding:20px 0;
+    margin-top: 10px;
+    border-top: 1px solid rgba(51, 51, 51, 0.1);
+}
+
+.form-group input {
+    padding: 5px 10px;
+    font: 100 14px/26px Avenir-bold;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    border: solid 1px #c6cbd4;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.form-group p {
+    color: red;
+    padding: 5px 0 0 0px;
+    font: 100 12px/12px Avenir-light;
+}
+.modal-footer {
+    height: 40px;
+    width: 175px;
+    margin-top: 20px;
+}
+
+.modal-footer button {
+    width: auto;
+    height: 100%;
+    font: 100 12px/14px Avenir-Bold;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 0px 40px;
+    color: #fff;
+    border-radius: 24px;
+    background-color: #4b74ff;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+.rules {
+    margin-bottom: 20px;
+}
+.rules li {
+    font: 100 16px/14px Avenir-light;
+    padding: 8px 0;
+    list-style-type: disc;
+}
+.rules li p {
+    padding-top: 10px;
 }

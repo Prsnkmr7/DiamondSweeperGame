@@ -1,0 +1,38 @@
+<div ng-controller="infoController">
+    <section class="full-width-grid">
+        <div class="account-table common-pad">
+            <h1>Diamond Game</h1>
+        </div>
+        <section class="content-wrapper">
+            <div class="account-table common-pad">
+                <h2>Rules of the Game</h2>
+                <ul class="rules">
+                    <li>The game board has 8x8 squares (initially, all represented by question marks)</li>
+                    <li>There are 8 diamonds hidden on the board, each diamond behind one of the squares</li>
+                    <li>When the user clicks on a square :
+                        <p>If the square was hiding a diamond, the diamond appears</p>
+                        <p>Otherwise, the square is opened, and blank</p>
+                    </li>
+                    <li>The game ends when all diamonds are found. The user's score is the number of squares still left
+                        unturned.</li>
+                    <li>There is hint which you can use</li>
+                </ul>
+                <h2>Please Enter your Name and let's play</h2>
+                <form name="form" ng-submit="submitForm(form.$valid)" novalidate>
+                    <div class="modal-body">
+                        <!-- NAME -->
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" name="name" class="form-control" ng-model="user.name" required>
+                            <p ng-show="form.name.$error.required" class="help-block">Your
+                                name is required.</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn" ng-disabled="form.$invalid">Let's Play</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </section>
+</div>
