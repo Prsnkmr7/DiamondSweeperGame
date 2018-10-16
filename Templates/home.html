@@ -1,0 +1,19 @@
+<div ng-controller="homeController" ng-click="removeDefault()">
+    <section class="full-width-grid">
+        <div class="account-table common-pad">
+            <h1>Team Members</h1>
+        </div>
+        <div class="content-wrapper">
+            <table class="account-table">
+                <tbody>
+                    <tr class="account-table__data-row grid-x common-pad" ng-repeat="list in listItems">
+                        <td class="account-table__date pointer" ng-repeat="data in list.columns"
+                        ng-class="{'show-emptyBox':data.isClicked && !data.isDiamond, 
+                        'show-diamond':data.isClicked && data.isDiamond}" ng-click="checkForDiamond(data)"
+                        ></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</div>
